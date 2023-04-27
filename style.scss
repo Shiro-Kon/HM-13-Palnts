@@ -1,0 +1,19 @@
+@import "./variables";
+@import "./header.scss";
+@import "./hero";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+}
+.main {
+  flex: 1 1 auto;
+}
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

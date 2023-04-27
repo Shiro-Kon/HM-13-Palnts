@@ -1,0 +1,43 @@
+@mixin blockSize() {
+  max-width: 1411px;
+  margin: 0px auto;
+}
+@mixin blockSizeFor375px {
+  max-width: 345px;
+  margin: 0px auto;
+}
+@mixin blockSizeForTablets {
+  max-width: 750px;
+  margin: 0 auto;
+}
+@mixin fontContacts() {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: white;
+}
+@mixin fontNavMenu() {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #212529;
+}
+@mixin greenButton {
+  background-color: #00730c;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #00730c;
+  align-items: center;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+$blackgreen: #0c4b35;
